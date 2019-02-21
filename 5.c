@@ -22,6 +22,7 @@ for(i=0;i<n;i++)
 
 	a[i]=1;
 
+	
 	else if(rn[i]=='V')
 
 		
