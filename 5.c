@@ -24,6 +24,9 @@ for(i=0;i<n;i++)
 
 	else if(rn[i]=='V')
 
+		
+		
+		
 	a[i]=5;
 
 	else if(rn[i]=='X')
