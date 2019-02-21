@@ -2,15 +2,16 @@
 
 int main()
 {
-   int i,j,k;
+   int i,j,k,r;
    char a[100000];
    printf("Input:\n");
-   gets(a);
+   scanf("%d",&k);
    printf("\nOutput:\n");
-   for(i=0;a[i]!='\0';i++);
-   for(j=i;j>=0;j--)
+   while(k)
    {
-       printf("%c",a[j]);
+       r=k%10;
+       printf("%d",r);
+       k=k/10;
    }
 
     return 0;
